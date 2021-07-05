@@ -46,3 +46,5 @@ class Solution:
                 right = length - 1
         
         return ans
+#https://leetcode-cn.com/problems/longest-common-subpath/
+#https://leetcode-cn.com/problems/longest-common-subpath/solution/zui-chang-gong-gong-zi-lu-jing-by-leetco-ypip/
