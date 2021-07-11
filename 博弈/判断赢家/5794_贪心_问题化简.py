@@ -10,14 +10,6 @@ class Solution:
         """
         n = len(num)
         m = num.count('?')
-        if m == 0:
-            sm1 = 0
-            sm2 = 0
-            for i in num[:n//2]:
-                sm1 += int(i)
-            for i in num[n//2:]:
-                sm2 += int(i)
-            return sm1 != sm2
         if m % 2 == 1:
             return True
         p = num[:n//2].count('?')
